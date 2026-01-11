@@ -65,6 +65,70 @@ The application uses a multi-agent pipeline powered by Claude:
 5. **Verify** - A fact-checker ensures no fabricated content was added
 6. **Download** - Get your tailored resume as Markdown or PDF
 
+## Architecture
+
+```mermaid
+flowchart TB
+    subgraph Input["📥 Input Layer"]
+        Resume["Resume\n(PDF/DOCX/TXT)"]
+        JobAd["Job Posting\n(URL/Text)"]
+    end
+
+    subgraph Parsers["🔍 Document Parsers"]
+        PDF["PDF Parser\n(pdfplumber)"]
+        DOCX["DOCX Parser\n(python-docx)"]
+        Scraper["Job Scraper\n(httpx + bs4)"]
+    end
+
+    subgraph Agents["🤖 AI Agent Pipeline (Claude)"]
+        direction TB
+        A1["1️⃣ Job Analyzer\nExtract requirements & keywords"]
+        A2["2️⃣ Resume Parser\nStructure into sections"]
+        A3["3️⃣ Skill Matcher\nCompare & identify gaps"]
+        A4["4️⃣ Resume Tailor\nOptimize content"]
+        A5["5️⃣ Fact Checker\nVerify accuracy"]
+
+        A1 --> A3
+        A2 --> A3
+        A3 --> A4
+        A4 --> A5
+    end
+
+    subgraph Output["📤 Output Layer"]
+        MD["Markdown\nResume"]
+        PDFOut["PDF\nResume"]
+        Report["Change\nReport"]
+    end
+
+    Resume --> PDF & DOCX
+    JobAd --> Scraper
+    PDF & DOCX --> A2
+    Scraper --> A1
+    A5 --> MD & PDFOut & Report
+
+    subgraph UI["🖥️ Streamlit Web UI"]
+        Upload["Step 1: Upload"]
+        Process["Step 2: Process"]
+        Results["Step 3: Results"]
+        Upload --> Process --> Results
+    end
+
+    style Agents fill:#e1f5fe
+    style Input fill:#fff3e0
+    style Output fill:#e8f5e9
+    style UI fill:#fce4ec
+```
+
+### Agent Pipeline Details
+
+| Agent | Input | Output | Purpose |
+|-------|-------|--------|---------|
+| **Job Analyzer** | Raw job posting | Structured requirements | Extract skills, keywords, qualifications |
+| **Resume Parser** | Raw resume text | Structured sections | Parse into editable components |
+| **Skill Matcher** | Resume + Job data | Match analysis | Identify matches, gaps, transferable skills |
+| **Resume Tailor** | Resume + Matches | Optimized resume | Rephrase & reorder (no new facts) |
+| **Fact Checker** | Original + Tailored | Verification report | Ensure no hallucinated content |
+
 ## Project Structure
 
 ```
