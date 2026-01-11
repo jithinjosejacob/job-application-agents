@@ -1,0 +1,51 @@
+Senior Python Developer - FinTech Platform
+
+Company: Afterpay (Block)
+Location: Melbourne CBD, VIC (Hybrid - 3 days in office)
+Salary: $160,000 - $190,000 + Super + Equity
+
+About Us:
+Afterpay is Australia's leading buy-now-pay-later platform, revolutionising how millions of customers shop. We're looking for a Senior Python Developer to join our Platform Engineering team and help scale our systems to support continued growth.
+
+The Role:
+You'll be working on our core payment processing platform, building highly available services that handle millions of transactions daily. This is a hands-on technical role with opportunities to influence architecture decisions.
+
+Key Responsibilities:
+- Design and develop scalable backend services using Python and FastAPI
+- Build and maintain APIs that integrate with banking partners and merchants
+- Implement event-driven architectures using Kafka and message queues
+- Collaborate with data engineers to build real-time fraud detection pipelines
+- Participate in system design reviews and technical decision-making
+- Mentor junior engineers and contribute to engineering best practices
+- Ensure high availability and performance of critical payment systems
+- Write comprehensive tests and maintain code quality standards
+
+Requirements:
+- 5+ years of professional software development experience
+- Strong proficiency in Python (FastAPI, Django, or Flask)
+- Experience with cloud platforms (AWS preferred)
+- Solid understanding of microservices architecture
+- Experience with SQL databases (PostgreSQL preferred)
+- Knowledge of containerisation (Docker, Kubernetes)
+- Familiarity with CI/CD pipelines and DevOps practices
+- Strong communication skills and ability to work in cross-functional teams
+- Australian work rights required
+
+Nice to Have:
+- Experience in fintech or payments industry
+- Knowledge of Apache Kafka or similar streaming platforms
+- Experience with infrastructure as code (Terraform)
+- Contributions to open source projects
+- Experience with real-time data processing
+
+Benefits:
+- Competitive salary plus equity package
+- Flexible hybrid working arrangements
+- $1,000 annual learning and development budget
+- Wellness programs and mental health support
+- Generous parental leave policy
+- Friday team lunches and social events
+- Modern CBD office with city views
+
+How to Apply:
+Submit your resume and a brief cover letter explaining why you're interested in joining Afterpay.

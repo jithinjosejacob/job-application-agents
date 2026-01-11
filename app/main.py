@@ -1,5 +1,13 @@
 """Main Streamlit application for the Job Application Agent."""
 
+import sys
+from pathlib import Path
+
+# Add project root to path for imports
+ROOT_DIR = Path(__file__).parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
 import streamlit as st
 from io import BytesIO
 

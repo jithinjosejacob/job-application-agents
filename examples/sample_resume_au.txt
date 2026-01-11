@@ -1,0 +1,55 @@
+SARAH CHEN
+Melbourne, VIC 3000 | sarah.chen@email.com.au | 0412 345 678 | linkedin.com/in/sarahchen
+
+PROFESSIONAL SUMMARY
+Senior Software Developer with 6+ years of experience delivering scalable web applications and cloud solutions. Proven track record in agile environments, mentoring junior developers, and driving technical excellence across cross-functional teams.
+
+EXPERIENCE
+
+Senior Software Developer
+ANZ Banking Group, Melbourne VIC
+March 2021 - Present
+- Led migration of legacy monolith to microservices architecture using Java Spring Boot and Kubernetes, reducing deployment time by 60%
+- Designed and implemented RESTful APIs serving 2M+ daily transactions for mobile banking platform
+- Mentored team of 4 junior developers through code reviews and pair programming sessions
+- Collaborated with product owners to refine user stories and deliver features within sprint cycles
+- Implemented CI/CD pipelines using Jenkins and GitLab, improving release frequency from monthly to weekly
+
+Software Developer
+Telstra, Melbourne VIC
+January 2019 - February 2021
+- Developed customer-facing web applications using React and Node.js
+- Built real-time notification system using Apache Kafka handling 500K messages per hour
+- Optimised PostgreSQL database queries reducing average response time by 40%
+- Participated in on-call rotation and incident response for production systems
+- Contributed to internal developer documentation and onboarding materials
+
+Junior Developer
+Envato, Melbourne VIC
+July 2017 - December 2018
+- Built and maintained Ruby on Rails applications for digital marketplace
+- Developed automated testing suites achieving 90% code coverage
+- Participated in agile ceremonies including daily standups and retrospectives
+- Assisted in migrating infrastructure to AWS cloud services
+
+EDUCATION
+
+Bachelor of Computer Science
+University of Melbourne
+Graduated: June 2017
+WAM: 78 (Distinction)
+
+TECHNICAL SKILLS
+Languages: Java, Python, JavaScript, TypeScript, Ruby, SQL
+Frameworks: Spring Boot, React, Node.js, Rails, Django
+Cloud: AWS (EC2, S3, Lambda, RDS), Azure, GCP
+Tools: Docker, Kubernetes, Jenkins, GitLab CI, Terraform
+Databases: PostgreSQL, MySQL, MongoDB, Redis
+Methodologies: Agile/Scrum, TDD, CI/CD
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect - Associate (2023)
+- Certified Kubernetes Administrator (CKA) (2022)
+
+REFERENCES
+Available upon request
