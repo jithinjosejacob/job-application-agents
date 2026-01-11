@@ -1,0 +1,38 @@
+Senior Backend Engineer - AI Platform
+
+Company: InnovateTech AI
+Location: San Francisco, CA (Hybrid)
+Salary: $180,000 - $220,000
+
+About Us:
+InnovateTech AI is building the next generation of AI-powered developer tools. We're looking for a Senior Backend Engineer to help scale our platform.
+
+Responsibilities:
+- Design and implement scalable backend services for our AI platform
+- Build and maintain RESTful and GraphQL APIs
+- Optimize system performance and reduce latency
+- Collaborate with ML engineers to integrate AI models into production
+- Mentor junior engineers and contribute to technical decisions
+- Write clean, maintainable, and well-tested code
+
+Requirements:
+- 5+ years of backend development experience
+- Strong proficiency in Python
+- Experience with cloud platforms (AWS, GCP, or Azure)
+- Knowledge of containerization (Docker, Kubernetes)
+- Experience with SQL and NoSQL databases
+- Familiarity with CI/CD pipelines
+- Strong communication and collaboration skills
+
+Nice to Have:
+- Experience with machine learning or AI systems
+- Knowledge of GraphQL
+- Experience with distributed systems
+- Contributions to open source projects
+
+Benefits:
+- Competitive salary and equity
+- Health, dental, and vision insurance
+- Flexible work arrangements
+- Professional development budget
+- 401(k) matching

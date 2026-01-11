@@ -1,0 +1,44 @@
+JOHN SMITH
+San Francisco, CA | john.smith@email.com | (555) 123-4567 | linkedin.com/in/johnsmith
+
+SUMMARY
+Software engineer with 5 years of experience building web applications and backend services. Passionate about clean code and scalable systems.
+
+EXPERIENCE
+
+Senior Software Engineer
+TechCorp Inc., San Francisco, CA
+January 2021 - Present
+- Led development of a microservices architecture that reduced system latency by 40%
+- Mentored 3 junior developers and conducted code reviews
+- Built RESTful APIs using Python and Flask serving 1M+ requests daily
+- Implemented CI/CD pipelines using GitHub Actions and Docker
+
+Software Engineer
+StartupXYZ, San Francisco, CA
+June 2018 - December 2020
+- Developed full-stack web applications using React and Node.js
+- Designed and optimized PostgreSQL database schemas
+- Collaborated with product team to deliver features on tight deadlines
+- Wrote unit and integration tests achieving 85% code coverage
+
+Junior Developer
+WebAgency Co., Oakland, CA
+January 2017 - May 2018
+- Built responsive websites using HTML, CSS, and JavaScript
+- Maintained WordPress sites for 20+ clients
+- Participated in agile sprints and daily standups
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+University of California, Berkeley
+Graduated: May 2016
+GPA: 3.7
+
+SKILLS
+Python, JavaScript, TypeScript, React, Node.js, Flask, PostgreSQL, MongoDB, Docker, AWS, Git, REST APIs, Agile/Scrum
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect
+- Google Cloud Professional Developer
